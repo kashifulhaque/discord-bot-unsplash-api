@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.1",
+  "description": "A simple Discord Bot for learning purposes. Uses Discord.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kashifulhaque",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "node-fetch": "^2.6.0",
+    "unsplash-js": "^6.0.0"
+  }
+}

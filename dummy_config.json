@@ -1,0 +1,7 @@
+{
+  "important": "MAKE SURE TO ADD YOUR API KEYS HERE AND DO NOT FORGET TO RENAME THIS FILE TO config.json",
+  "prefix": "!",
+  "token": "YOUR_DISCORD_TOKEN",
+  "unsplashAccessKey": "YOUR_UNSPLASH_ACCESS_KEY",
+  "unsplashSecretKey": "YOUR_UNSPLASH_SECRET_KEY"
+}
