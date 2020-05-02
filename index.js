@@ -45,9 +45,18 @@ client.on("message", (message) => {
           let randomNum = generateRandomInteger(res.length);
           let finalResponse = res[randomNum];
 
-          message.channel.send("Download: " + finalResponse.links.download, {
-            file: finalResponse.urls.small,
-          });
+          message.channel.send(
+            "> Photo by " +
+              finalResponse.user.name +
+              " on Unsplash. " +
+              finalResponse.links.download,
+            {
+              file:
+                finalResponse.urls.thumb == null
+                  ? finalResponse.urls.small
+                  : finalResponse.urls.thumb,
+            }
+          );
         });
     } else {
       // Search
@@ -58,9 +67,18 @@ client.on("message", (message) => {
           let randomNum = generateRandomInteger(res.results.length);
           let finalResponse = res.results[randomNum];
 
-          message.channel.send("Download: " + finalResponse.links.download, {
-            file: finalResponse.urls.small,
-          });
+          message.channel.send(
+            "> Photo by " +
+              finalResponse.user.name +
+              " on Unsplash. " +
+              finalResponse.links.download,
+            {
+              file:
+                finalResponse.urls.thumb == null
+                  ? finalResponse.urls.small
+                  : finalResponse.urls.thumb,
+            }
+          );
         });
     }
   }
