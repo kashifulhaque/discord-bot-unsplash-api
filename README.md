@@ -2,7 +2,7 @@
 > A Discord bot which uses the Unsplash API to fetch images!
 
 ### Want to add the bot to your server?
-> [Click here](http://bit.ly/image-bot)
+> ~[Click here]~(http://bit.ly/image-bot) _Bot is currently offline_
 
 Use **!unsplash** to get a random image or **!unsplash title** to search. Make sure to replace **title** with your required text.
 > Example: `!unsplash tokyo` will display a random Tokyo image with a download link.
@@ -16,4 +16,4 @@ Use **!unsplash** to get a random image or **!unsplash title** to search. Make s
 5. Run `npm install` in the directory.
 6. To run the app, type `node index.js` in the console or you may use `nodemon`/`pm2`. Check their respective documentation on how to use 'em.
 
-*If you're facing error, make sure you're Node.js v12 or higher.*
+*If you're facing error, make sure you're on Node.js v12 or higher.*
