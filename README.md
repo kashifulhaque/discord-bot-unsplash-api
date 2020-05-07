@@ -2,7 +2,7 @@
 > A Discord bot which uses the Unsplash API to fetch images!
 
 ### Want to add the bot to your server?
-> ~[Click here]~(http://bit.ly/image-bot) _Bot is currently offline_
+> ~[Click here](http://bit.ly/image-bot)~ _Bot is currently offline_
 
 Use **!unsplash** to get a random image or **!unsplash title** to search. Make sure to replace **title** with your required text.
 > Example: `!unsplash tokyo` will display a random Tokyo image with a download link.
